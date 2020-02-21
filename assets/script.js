@@ -29,7 +29,7 @@ function generatePassword(lower, upper, numbers, symbols, length) {
 
   //If no character types are selected, user will be prompted again.
   while ((lower === false) && (upper === false) && (numbers === false) && (symbols === false)) {
-    alert("You not chosen any character types, please choose at least one.");
+    alert("You have not chosen any character types, please choose at least one.");
     var lower = confirm("Do you want lower case letters?")
     var upper = confirm("Do you want upper case letters?")
     var numbers = confirm("Do you want numbers?")
@@ -47,11 +47,11 @@ function generatePassword(lower, upper, numbers, symbols, length) {
 
   //User to choose if they wish to continue with chosen criteria, if false then 
   var validate = confirm("You have chosen:  " +
-    "  Upper case: " + lower +
-    "  , Lower Case: " + upper +
-    "  , Numbers: " + numbers +
-    "  , Special symbols: " + symbols +
-    "  , Password length: " + length);
+    "  Upper case: " + lower + "," +
+    "   Lower Case: " + upper + "," +
+    "   Numbers: " + numbers + "," +
+    "   Special symbols: " + symbols + "," +
+    "   Password length: " + length);
 
   if (validate === false) {
     generatePassword()
