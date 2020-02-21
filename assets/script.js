@@ -13,7 +13,7 @@ function writePassword() {
 
 function generatePassword(lower, upper, numbers, symbols, length) {
 
-  //password criteria options
+  //password character type options:
   var lwr = "abcdefghijklmnopqrstuvwxyz";
   var upr = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   var num = "1234567890";
@@ -36,16 +36,16 @@ function generatePassword(lower, upper, numbers, symbols, length) {
     var symbols = confirm("Do you want special symbols?")
   }
 
-  //User must select password length
+  //User to select password length
   var length = prompt("How long do you want your password to be?")
 
-  //password length between 8 and 128 
+  //password length must be between 8 and 128 
   while (length < 8 || length > 128) {
     alert("Password length must be between 8 and 128.")
     var length = prompt("How long do you want your password to be?")
   }
 
-  //User to choose if they wish to continue with chosen criteria, if false then 
+  //User to choose if they wish to continue with chosen criteria, if false selected then 'confirm' boxes will be replayed and user can re-decide.
   var validate = confirm("You have chosen:  " +
     "  Upper case: " + lower + "," +
     "   Lower Case: " + upper + "," +
