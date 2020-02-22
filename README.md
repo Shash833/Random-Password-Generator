@@ -19,7 +19,7 @@ THEN I select which criteria to include in the password
 
 When the "Generate Password" button on the website is clicked, a series of 'confirm' boxes with questions regarding the criteria appear for the user to select from as shown below: 
 
-![Confirm box image](/assets/README_images/prompt-img.png)
+![Confirm box image](/assets/README_images/prompt-img.PNG)
 
  The following questions were used: 
 * Do you want lower case letters?
@@ -32,7 +32,7 @@ WHEN prompted for the length of the password
 THEN I choose a length of at least 8 characters and no more than 128 characters
 ~~~
 As above, a 'prompt' box will appear prompting the user to select the length of their password. If the chosen length is less then 8 or greater then 128, they will be advised of the length criteria as shown below. After this alert, the user will be prompted again.
-![Confirm box image](/assets/README_images/length-criteria-img.png)
+![Confirm box image](/assets/README_images/length-criteria-img.PNG)
 
 ---------
 ~~~
@@ -44,12 +44,12 @@ THEN my input should be validated and at least one character type should be sele
 
 After the user has selected their desired character types and password length through the 'confirm' and 'prompt' boxes, their selection can be validated through a 'confirm' box which will list their choices (as shown below). The user also has a choice to change their mind and cancel their selection, which will re-run the function and present them with the password criteria questions again. 
 
-![Confirm box image](/assets/README_images/validate-img.png)
+![Confirm box image](/assets/README_images/validate-img.PNG)
 
 
 The user must also select at least one character type, if not they will be presented with the 'alert' shown below and will be presented with the series password criteria questions again.
 
-![Confirm box image](/assets/README_images/no-selection-img.png)
+![Confirm box image](/assets/README_images/no-selection-img.PNG)
 
 ---------
 ~~~~
@@ -61,6 +61,6 @@ THEN the password is either displayed in an alert or written to the page
 
 After the user has selected their password criteria and validated it, the password will be generated and presented as below:
 
-![Confirm box image](/assets/README_images/password-img.png)
+![Confirm box image](/assets/README_images/password-img.PNG)
 
 ---------
