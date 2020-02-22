@@ -1,4 +1,4 @@
-# Random Password 
+# Random Password Generator
 
 ## Introduction
 This website was formed to create a randomly generated password based on a selection of criteria on types of characters to be used. To create the website, a Javascript file with code formulated to generate a random password was linked to the HTML file. 
