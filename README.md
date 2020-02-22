@@ -32,6 +32,7 @@ WHEN prompted for the length of the password
 THEN I choose a length of at least 8 characters and no more than 128 characters
 ~~~
 As above, a 'prompt' box will appear prompting the user to select the length of their password. If the chosen length is less then 8 or greater then 128, they will be advised of the length criteria as shown below. After this alert, the user will be prompted again.
+
 ![Confirm box image](/assets/README_images/length-criteria-img.PNG)
 
 ---------
